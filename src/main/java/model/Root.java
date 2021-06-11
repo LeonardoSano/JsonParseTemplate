@@ -1,0 +1,54 @@
+package model;
+
+import java.util.Date;
+
+public class Root{
+    public String expand;
+    public Link link;
+    public Plan plan;
+    public Master master;
+    public String planName;
+    public String projectName;
+    public String buildResultKey;
+    public String lifeCycleState;
+    public int id;
+    public Date buildStartedTime;
+    public String prettyBuildStartedTime;
+    public Date buildCompletedTime;
+    public Date buildCompletedDate;
+    public String prettyBuildCompletedTime;
+    public int buildDurationInSeconds;
+    public int buildDuration;
+    public String buildDurationDescription;
+    public String buildRelativeTime;
+    public String vcsRevisionKey;
+    public VcsRevisions vcsRevisions;
+    public String buildTestSummary;
+    public int successfulTestCount;
+    public int failedTestCount;
+    public int quarantinedTestCount;
+    public int skippedTestCount;
+    public boolean continuable;
+    public boolean onceOff;
+    public boolean restartable;
+    public boolean notRunYet;
+    public boolean finished;
+    public boolean successful;
+    public String buildReason;
+    public String reasonSummary;
+    public boolean specsResult;
+    public Artifacts artifacts;
+    public Comments comments;
+    public Labels labels;
+    public JiraIssues jiraIssues;
+    public Variables variables;
+    public Stages stages;
+    public Changes changes;
+    public Metadata metadata;
+    public String key;
+    public PlanResultKey planResultKey;
+    public String state;
+    public String buildState;
+    public int number;
+    public int buildNumber;
+}
